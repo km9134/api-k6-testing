@@ -30,5 +30,7 @@ run-load-test.sh
 ```
 Which contains the commands to run in a Docker image. 
 
+If you want to see your results you can access it from here: http://localhost:3000/d/k6/k6-load-testing-results
+
 This base project contains one ```POST``` request to create an entry. It
 starts up to 20 looping VUs for 2m20s over 3 stages, with a gracefulRampDown of 30s and a gracefulStop of 30s
