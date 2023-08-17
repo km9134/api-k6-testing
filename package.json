@@ -1,0 +1,16 @@
+{
+    "name": "k6-grafana-api-tests",
+    "version": "1.0.0",
+    "description": "Basic framework to run APi load testing and view Grafana Dashboard in realtime",
+    "author": "Kyle Moffett",
+    "contributors": [{
+        "article": "https://medium.com/swlh/beautiful-load-testing-with-k6-and-docker-compose-4454edb3a2e3"
+    }],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/phoenixnap-KB/example.git"
+    },
+    "scripts": {
+        "test-api": "./run-load-test.sh"
+    }
+}
